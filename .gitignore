@@ -1,0 +1,52 @@
+# ── Maven / Spring Boot ──────────────────────────────────────────────────────
+target/
+!**/src/main/**/target/
+!**/src/test/**/target/
+*.jar
+*.war
+*.ear
+*.class
+
+# ── Maven wrapper binary ─────────────────────────────────────────────────────
+.mvn/wrapper/maven-wrapper.jar
+
+# ── Node / Vue ───────────────────────────────────────────────────────────────
+node_modules/
+dist/
+frontend/dist/
+.npm
+
+# ── Environment / secrets ────────────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.local
+
+# ── IntelliJ IDEA ────────────────────────────────────────────────────────────
+.idea/
+*.iml
+*.iws
+*.ipr
+out/
+
+# ── VS Code ──────────────────────────────────────────────────────────────────
+.vscode/
+# Conserve les settings partagés utiles si tu le souhaites :
+# !.vscode/settings.json
+# !.vscode/extensions.json
+
+# ── macOS ────────────────────────────────────────────────────────────────────
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────────────────────────────
+*.log
+logs/
+spring.log
+
+# ── Docker overrides locaux ──────────────────────────────────────────────────
+docker-compose.override.yml
